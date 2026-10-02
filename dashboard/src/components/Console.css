@@ -1,0 +1,8 @@
+.console-container { padding: 40px 32px; background: #f8f9fb; min-height: 85vh; }
+.console-header h2 { font-size: 22px; margin-bottom: 4px; }
+.console-header p { color: #888; font-size: 14px; margin-bottom: 28px; }
+.console-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.console-card { background: #fff; padding: 20px; border-radius: 10px; border: 1px solid #eaeaea; cursor: pointer; transition: box-shadow 0.2s; }
+.console-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.console-card h3 { font-size: 15px; margin-bottom: 6px; color: #1a1a1a; }
+.console-card p { font-size: 13px; color: #888; }

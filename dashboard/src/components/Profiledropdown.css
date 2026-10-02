@@ -1,0 +1,58 @@
+/* ✅ Profile dropdown ke liye naya CSS — apni existing menu.css mein add karo */
+
+.profile-wrapper {
+  position: relative;
+}
+
+.profile {
+  cursor: pointer;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 180px;
+  background: #ffffff;
+  border: 1px solid #edeef2;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(16, 24, 40, 0.12);
+  padding: 8px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #26292e;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+
+.dropdown-item:hover {
+  background: #f4f5ff;
+}
+
+.dropdown-divider {
+  border: none;
+  border-top: 1px solid #edeef2;
+  margin: 6px 0;
+}
+
+.dropdown-logout {
+  color: #e5484d;
+}
+
+.dropdown-logout:hover {
+  background: #fdecec;
+}

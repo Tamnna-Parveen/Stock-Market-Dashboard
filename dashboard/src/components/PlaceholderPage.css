@@ -1,0 +1,48 @@
+.placeholder-page {
+  max-width: 480px;
+  margin: 80px auto 0;
+  text-align: center;
+  padding: 48px 32px;
+  background: #ffffff;
+  border: 1px solid #edeef2;
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.placeholder-icon {
+  font-size: 40px;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #eef0fd 0%, #e3e6fb 100%);
+  border-radius: 18px;
+}
+
+.placeholder-page h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1c20;
+  margin: 0 0 10px 0;
+}
+
+.placeholder-page p {
+  font-size: 14px;
+  color: #6b7078;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+}
+
+.placeholder-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  color: #5b6ee1;
+  background: #eef0fd;
+  padding: 5px 12px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}

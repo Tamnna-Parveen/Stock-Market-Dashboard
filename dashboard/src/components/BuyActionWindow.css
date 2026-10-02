@@ -1,0 +1,226 @@
+/* Overlay to center modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999 !important;
+}
+
+/* Zerodha Buy Modal Box - Blue Theme */
+.buy-modal {
+  width: 500px;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow: hidden;
+  border-top: 5px solid #4184f3;
+  animation: popIn 0.2s ease-out;
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 28px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.stock-title h2 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 600;
+  color: #333333;
+  display: inline-block;
+}
+
+.badge {
+  font-size: 11px;
+  background: #f1f1f1;
+  color: #666666;
+  padding: 3px 8px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.ltp-info {
+  font-size: 14px;
+  color: #666666;
+}
+
+.ltp-info span {
+  color: #4184f3;
+  font-weight: 600;
+}
+
+/* Body Content */
+.modal-body {
+  padding: 24px 28px;
+}
+
+.product-tabs {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 22px;
+}
+
+.tab-item {
+  font-size: 15px;
+  color: #555;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tab-item input {
+  accent-color: #4184f3;
+  transform: scale(1.15);
+}
+
+.tab-item.active {
+  color: #4184f3;
+  font-weight: 600;
+}
+
+.tab-item span {
+  font-size: 11px;
+  background: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+/* Inputs */
+.input-group {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 22px;
+}
+
+.input-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-box label {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+.input-box input {
+  padding: 11px 14px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 15px;
+  outline: none;
+}
+
+.input-box input:focus {
+  border-color: #4184f3;
+}
+
+.input-box input:disabled {
+  background: #f8f8f8;
+  color: #aaaaaa;
+  cursor: not-allowed;
+}
+
+/* Order Types */
+.order-types {
+  display: flex;
+  justify-content: space-between;
+}
+
+.type-pill {
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.type-pill input {
+  accent-color: #4184f3;
+  transform: scale(1.15);
+}
+
+.type-pill.active {
+  color: #4184f3;
+  font-weight: 600;
+}
+
+/* Footer */
+.modal-footer {
+  background: #f9f9f9;
+  padding: 18px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eeeeee;
+}
+
+.margin-info {
+  font-size: 14px;
+  color: #666;
+}
+
+.margin-info strong {
+  color: #333;
+}
+
+.action-btns {
+  display: flex;
+  gap: 14px;
+}
+
+.btn-buy {
+  background-color: #4184f3;
+  color: white;
+  border: none;
+  padding: 11px 32px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-buy:hover {
+  background-color: #2f73e0;
+}
+
+.btn-cancel {
+  background-color: #eeeeee;
+  color: #555555;
+  border: none;
+  padding: 11px 24px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-cancel:hover {
+  background-color: #e0e0e0;
+}
